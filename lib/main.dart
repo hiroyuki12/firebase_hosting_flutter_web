@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
-import 'pages/QiitaScreen.dart';
+//import 'pages/QiitaScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -64,6 +64,7 @@ class _MyHomePageState extends State<MyHomePage> {
           // horizontal).
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
+            /*
             CupertinoButton(
               child: Text("Push Qiita(API)"),
               onPressed: () =>
@@ -71,6 +72,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   context, MaterialPageRoute(builder: (context) => Qiita())
                 ),
             ),
+            */
           ],
         ),
       ),
